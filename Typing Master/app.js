@@ -1969,7 +1969,7 @@ function typingGame() {
                         word.style.color = "blue";
                         break;
                     case 9:
-                        word.style.color = "yellow";
+                        word.style.color = "pink";
                         break;
                     case 15:
                         word.style.color = "violet";
