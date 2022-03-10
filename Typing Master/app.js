@@ -1989,7 +1989,6 @@ function typingGame() {
             playtime--;
             console.log(playtime);
             timer.innerText = `Timer: ${playtime}`;
-
             if (playtime == 0) {
                 playtime == 30;
                 clearInterval(clock);
@@ -2006,6 +2005,7 @@ function clearGame(){
     word.style.color = "red";
     word.innerText = `당신의 점수는 ${myscore}점입니다!`;
     timer.innerText = "Timer: 30";
+    playtime = 30;
     myscore = 0;
     score.innerText = "Score: 0";
 }
